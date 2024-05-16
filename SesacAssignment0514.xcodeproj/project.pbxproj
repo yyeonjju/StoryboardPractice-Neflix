@@ -13,6 +13,10 @@
 		7DDEC06C2BF34EC500A16CB2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEC06B2BF34EC500A16CB2 /* Base */; };
 		7DDEC06E2BF34EC700A16CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEC06D2BF34EC700A16CB2 /* Assets.xcassets */; };
 		7DDEC0712BF34EC700A16CB2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEC0702BF34EC700A16CB2 /* Base */; };
+		7DDEC0C82BF5EF3600A16CB2 /* NetflixMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEC0C72BF5EF3600A16CB2 /* NetflixMainViewController.swift */; };
+		7DDEC0CA2BF5EF5B00A16CB2 /* NetflixSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEC0C92BF5EF5B00A16CB2 /* NetflixSearchViewController.swift */; };
+		7DDEC0CC2BF5EF8300A16CB2 /* NetflixContentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEC0CB2BF5EF8300A16CB2 /* NetflixContentListViewController.swift */; };
+		7DDEC0CE2BF645D800A16CB2 /* NetflixSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEC0CD2BF645D700A16CB2 /* NetflixSignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		7DDEC06D2BF34EC700A16CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DDEC0702BF34EC700A16CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DDEC0722BF34EC700A16CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DDEC0C72BF5EF3600A16CB2 /* NetflixMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixMainViewController.swift; sourceTree = "<group>"; };
+		7DDEC0C92BF5EF5B00A16CB2 /* NetflixSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixSearchViewController.swift; sourceTree = "<group>"; };
+		7DDEC0CB2BF5EF8300A16CB2 /* NetflixContentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixContentListViewController.swift; sourceTree = "<group>"; };
+		7DDEC0CD2BF645D700A16CB2 /* NetflixSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixSignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		7DDEC0632BF34EC500A16CB2 /* SesacAssignment0514 */ = {
 			isa = PBXGroup;
 			children = (
+				7DDEC0C62BF5EF1200A16CB2 /* ViewController */,
 				7DDEC0642BF34EC500A16CB2 /* AppDelegate.swift */,
 				7DDEC0662BF34EC500A16CB2 /* SceneDelegate.swift */,
 				7DDEC0682BF34EC500A16CB2 /* ViewController.swift */,
@@ -65,6 +74,17 @@
 				7DDEC0722BF34EC700A16CB2 /* Info.plist */,
 			);
 			path = SesacAssignment0514;
+			sourceTree = "<group>";
+		};
+		7DDEC0C62BF5EF1200A16CB2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEC0C72BF5EF3600A16CB2 /* NetflixMainViewController.swift */,
+				7DDEC0C92BF5EF5B00A16CB2 /* NetflixSearchViewController.swift */,
+				7DDEC0CB2BF5EF8300A16CB2 /* NetflixContentListViewController.swift */,
+				7DDEC0CD2BF645D700A16CB2 /* NetflixSignupViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DDEC0C82BF5EF3600A16CB2 /* NetflixMainViewController.swift in Sources */,
 				7DDEC0692BF34EC500A16CB2 /* ViewController.swift in Sources */,
 				7DDEC0652BF34EC500A16CB2 /* AppDelegate.swift in Sources */,
+				7DDEC0CA2BF5EF5B00A16CB2 /* NetflixSearchViewController.swift in Sources */,
 				7DDEC0672BF34EC500A16CB2 /* SceneDelegate.swift in Sources */,
+				7DDEC0CC2BF5EF8300A16CB2 /* NetflixContentListViewController.swift in Sources */,
+				7DDEC0CE2BF645D800A16CB2 /* NetflixSignupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +324,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +332,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yeonju.SesacAssignment0514;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -328,6 +357,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +365,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yeonju.SesacAssignment0514;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
