@@ -17,6 +17,7 @@
 		7DDEC0CA2BF5EF5B00A16CB2 /* NetflixSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEC0C92BF5EF5B00A16CB2 /* NetflixSearchViewController.swift */; };
 		7DDEC0CC2BF5EF8300A16CB2 /* NetflixContentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEC0CB2BF5EF8300A16CB2 /* NetflixContentListViewController.swift */; };
 		7DDEC0CE2BF645D800A16CB2 /* NetflixSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEC0CD2BF645D700A16CB2 /* NetflixSignupViewController.swift */; };
+		7DDEC0D02BF7226000A16CB2 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEC0CF2BF7226000A16CB2 /* ExampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		7DDEC0C92BF5EF5B00A16CB2 /* NetflixSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixSearchViewController.swift; sourceTree = "<group>"; };
 		7DDEC0CB2BF5EF8300A16CB2 /* NetflixContentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixContentListViewController.swift; sourceTree = "<group>"; };
 		7DDEC0CD2BF645D700A16CB2 /* NetflixSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixSignupViewController.swift; sourceTree = "<group>"; };
+		7DDEC0CF2BF7226000A16CB2 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				7DDEC06D2BF34EC700A16CB2 /* Assets.xcassets */,
 				7DDEC06F2BF34EC700A16CB2 /* LaunchScreen.storyboard */,
 				7DDEC0722BF34EC700A16CB2 /* Info.plist */,
+				7DDEC0CF2BF7226000A16CB2 /* ExampleViewController.swift */,
 			);
 			path = SesacAssignment0514;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DDEC0C82BF5EF3600A16CB2 /* NetflixMainViewController.swift in Sources */,
+				7DDEC0D02BF7226000A16CB2 /* ExampleViewController.swift in Sources */,
 				7DDEC0692BF34EC500A16CB2 /* ViewController.swift in Sources */,
 				7DDEC0652BF34EC500A16CB2 /* AppDelegate.swift in Sources */,
 				7DDEC0CA2BF5EF5B00A16CB2 /* NetflixSearchViewController.swift in Sources */,
